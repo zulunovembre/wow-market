@@ -1,0 +1,1562 @@
+Puma starting in single mode...
+* Version 3.12.4 (ruby 2.7.0-p0), codename: Llamas in Pajamas
+* Min threads: 0, max threads: 16
+* Environment: development
+* Listening on tcp://localhost:4567
+Use Ctrl-C to stop
+----------------------------------------------------------------------------------
+Instanciation without any arguments:                                            OK
+Instanciation with one argument:                                                OK
+Instanciation with first argument nil:                                          OK
+Instanciation with second argument nil:                                         OK
+Instanciation with first argument not string:                                   OK
+Instanciation with second argument not string:                                  OK
+Instanciation with first argument empty string:                                 OK
+Instanciation with second argument empty string:                                OK
+Instanciation with correct arguments:                                           OK
+Throw on refused authentication:                                                OK
+Throw on bad json received after auth (not a hash):                             OK
+Throw on bad json received after auth (no "access_token" key):                  OK
+Throw on bad json received after auth ("access_token" value not a string):      OK
+No throw on correct JSON:                                                       OK
+Expected username:                                                              OK
+Expected password:                                                              OK
+Params contains grant_type:                                                     OK
+Grant_type header value is "client_credentials":                                OK
+Item get handler was called:                                                    OK
+Expected id param:                                                              OK
+Expected namespace:                                                             OK
+Expected locale:                                                                OK
+Expected token:                                                                 OK
+Expected data:                                                                  OK
+Client did not try to authenticate again:                                       OK
+Item get handler was called:                                                    OK
+No throw on re authentication:                                                  OK
+Client tried to authenticate again on 401:                                      OK
+Item get handler was called two times:                                          OK
+Expected data:                                                                  OK
+Throw on double 401:                                                            OK
+Throw on incorrect JSON:                                                        OK
+Throw on not hash:                                                              OK
+Throw on no "assets" key:                                                       OK
+Throw on "assets" not an array:                                                 OK
+Throw on "assets" array not good size:                                          OK
+Throw on "assets" array first item not a hash:                                  OK
+Throw on no "value" key in hash:                                                OK
+Throw on no "value" not a string:                                               OK
+No throw on correct JSON:                                                       OK
+Expected URI ("test_uri"):                                                      OK
+fetch_all_items throws ArgumentError on first_id lesser than zero:              OK
+fetch_all_items throws ArgumentError on last_id lesser than zero:               OK
+fetch_all_items throws ArgumentError on last_id lesser than first_id:           OK
+fetch_all_items throws ArgumentError on media param not true or false:          OK
+fetch_all_items throws ArgumentError on locales param not an array:             OK
+fetch_all_items throws ArgumentError on no block given:                         OK
+fetch_all_items throws ArgumentError on bad locale given:                       OK
+------------------------
+-->{:type=>:en_GB, :id=>0}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>0}
+es_ES
+{:type=>:es_ES, :id=>0}
+------------------------
+-->{:type=>:en_GB, :id=>7}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>7}
+es_ES
+{:type=>:es_ES, :id=>7}
+------------------------
+-->{:type=>:en_GB, :id=>8}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>8}
+es_ES
+{:type=>:es_ES, :id=>8}
+------------------------
+-->{:type=>:en_GB, :id=>9}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>9}
+es_ES
+{:type=>:es_ES, :id=>9}
+------------------------
+-->{:type=>:en_GB, :id=>6}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>6}
+es_ES
+{:type=>:es_ES, :id=>6}
+------------------------
+-->{:type=>:en_GB, :id=>10}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>10}
+es_ES
+{:type=>:es_ES, :id=>10}
+------------------------
+-->{:type=>:en_GB, :id=>11}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>11}
+es_ES
+{:type=>:es_ES, :id=>11}
+------------------------
+-->{:type=>:en_GB, :id=>12}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>12}
+es_ES
+{:type=>:es_ES, :id=>12}
+------------------------
+-->{:type=>:en_GB, :id=>5}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>5}
+es_ES
+{:type=>:es_ES, :id=>5}
+------------------------
+-->{:type=>:en_GB, :id=>14}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>14}
+es_ES
+{:type=>:es_ES, :id=>14}
+------------------------
+-->{:type=>:en_GB, :id=>15}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>15}
+es_ES
+{:type=>:es_ES, :id=>15}
+------------------------
+-->{:type=>:en_GB, :id=>16}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>16}
+es_ES
+{:type=>:es_ES, :id=>16}
+------------------------
+-->{:type=>:en_GB, :id=>17}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>17}
+es_ES
+{:type=>:es_ES, :id=>17}
+------------------------
+-->{:type=>:en_GB, :id=>18}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>18}
+es_ES
+{:type=>:es_ES, :id=>18}
+------------------------
+-->{:type=>:en_GB, :id=>19}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>19}
+es_ES
+{:type=>:es_ES, :id=>19}
+------------------------
+-->{:type=>:en_GB, :id=>4}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>4}
+es_ES
+{:type=>:es_ES, :id=>4}
+------------------------
+-->{:type=>:en_GB, :id=>13}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>13}
+es_ES
+{:type=>:es_ES, :id=>13}
+------------------------
+-->{:type=>:en_GB, :id=>20}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>20}
+es_ES
+{:type=>:es_ES, :id=>20}
+------------------------
+-->{:type=>:en_GB, :id=>21}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>21}
+es_ES
+{:type=>:es_ES, :id=>21}
+------------------------
+-->{:type=>:en_GB, :id=>22}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>22}
+es_ES
+{:type=>:es_ES, :id=>22}
+------------------------
+-->{:type=>:en_GB, :id=>23}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>23}
+es_ES
+{:type=>:es_ES, :id=>23}
+------------------------
+-->{:type=>:en_GB, :id=>24}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>24}
+es_ES
+{:type=>:es_ES, :id=>24}
+------------------------
+-->{:type=>:en_GB, :id=>25}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>25}
+es_ES
+{:type=>:es_ES, :id=>25}
+------------------------
+-->{:type=>:en_GB, :id=>3}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>3}
+es_ES
+{:type=>:es_ES, :id=>3}
+------------------------
+-->{:type=>:en_GB, :id=>49}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>49}
+es_ES
+{:type=>:es_ES, :id=>49}
+------------------------
+-->{:type=>:en_GB, :id=>50}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>50}
+es_ES
+{:type=>:es_ES, :id=>50}
+------------------------
+-->{:type=>:en_GB, :id=>54}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>54}
+es_ES
+{:type=>:es_ES, :id=>54}
+------------------------
+-->{:type=>:en_GB, :id=>39}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>39}
+es_ES
+{:type=>:es_ES, :id=>39}
+------------------------
+-->{:type=>:en_GB, :id=>40}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>40}
+es_ES
+{:type=>:es_ES, :id=>40}
+------------------------
+-->{:type=>:en_GB, :id=>48}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>48}
+es_ES
+{:type=>:es_ES, :id=>48}
+------------------------
+-->{:type=>:en_GB, :id=>57}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>57}
+es_ES
+{:type=>:es_ES, :id=>57}
+------------------------
+-->{:type=>:en_GB, :id=>58}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>58}
+es_ES
+{:type=>:es_ES, :id=>58}
+------------------------
+-->{:type=>:en_GB, :id=>44}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>44}
+es_ES
+{:type=>:es_ES, :id=>44}
+------------------------
+-->{:type=>:en_GB, :id=>59}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>59}
+es_ES
+{:type=>:es_ES, :id=>59}
+------------------------
+-->{:type=>:en_GB, :id=>53}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>53}
+es_ES
+{:type=>:es_ES, :id=>53}
+------------------------
+-->{:type=>:en_GB, :id=>43}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>43}
+es_ES
+{:type=>:es_ES, :id=>43}
+------------------------
+-->{:type=>:en_GB, :id=>41}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>41}
+es_ES
+{:type=>:es_ES, :id=>41}
+------------------------
+-->{:type=>:en_GB, :id=>47}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>47}
+es_ES
+{:type=>:es_ES, :id=>47}
+------------------------
+-->{:type=>:en_GB, :id=>34}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>34}
+es_ES
+{:type=>:es_ES, :id=>34}
+------------------------
+-->{:type=>:en_GB, :id=>32}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>32}
+es_ES
+{:type=>:es_ES, :id=>32}
+------------------------
+-->{:type=>:en_GB, :id=>52}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>52}
+es_ES
+{:type=>:es_ES, :id=>52}
+------------------------
+-->{:type=>:en_GB, :id=>46}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>46}
+es_ES
+{:type=>:es_ES, :id=>46}
+------------------------
+-->{:type=>:en_GB, :id=>1}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>1}
+es_ES
+{:type=>:es_ES, :id=>1}
+------------------------
+-->{:type=>:en_GB, :id=>51}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>51}
+es_ES
+{:type=>:es_ES, :id=>51}
+------------------------
+-->{:type=>:en_GB, :id=>42}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>42}
+es_ES
+{:type=>:es_ES, :id=>42}
+------------------------
+-->{:type=>:en_GB, :id=>45}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>45}
+es_ES
+{:type=>:es_ES, :id=>45}
+------------------------
+-->{:type=>:en_GB, :id=>56}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>56}
+es_ES
+{:type=>:es_ES, :id=>56}
+------------------------
+-->{:type=>:en_GB, :id=>60}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>60}
+es_ES
+{:type=>:es_ES, :id=>60}
+------------------------
+-->{:type=>:en_GB, :id=>30}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>30}
+es_ES
+{:type=>:es_ES, :id=>30}
+------------------------
+-->{:type=>:en_GB, :id=>26}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>26}
+es_ES
+{:type=>:es_ES, :id=>26}
+------------------------
+-->{:type=>:en_GB, :id=>27}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>27}
+es_ES
+{:type=>:es_ES, :id=>27}
+------------------------
+-->{:type=>:en_GB, :id=>28}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>28}
+es_ES
+{:type=>:es_ES, :id=>28}
+------------------------
+-->{:type=>:en_GB, :id=>29}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>29}
+es_ES
+{:type=>:es_ES, :id=>29}
+------------------------
+-->{:type=>:en_GB, :id=>31}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>31}
+es_ES
+{:type=>:es_ES, :id=>31}
+------------------------
+-->{:type=>:en_GB, :id=>33}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>33}
+es_ES
+{:type=>:es_ES, :id=>33}
+------------------------
+-->{:type=>:en_GB, :id=>36}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>36}
+es_ES
+{:type=>:es_ES, :id=>36}
+------------------------
+-->{:type=>:en_GB, :id=>35}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>35}
+es_ES
+{:type=>:es_ES, :id=>35}
+------------------------
+-->{:type=>:en_GB, :id=>37}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>37}
+es_ES
+{:type=>:es_ES, :id=>37}
+------------------------
+-->{:type=>:en_GB, :id=>38}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>38}
+es_ES
+{:type=>:es_ES, :id=>38}
+------------------------
+-->{:type=>:en_GB, :id=>2}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>2}
+es_ES
+{:type=>:es_ES, :id=>2}
+------------------------
+-->{:type=>:en_GB, :id=>55}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>55}
+es_ES
+{:type=>:es_ES, :id=>55}
+------------------------
+-->{:type=>:en_GB, :id=>61}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>61}
+es_ES
+{:type=>:es_ES, :id=>61}
+------------------------
+-->{:type=>:en_GB, :id=>89}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>89}
+es_ES
+{:type=>:es_ES, :id=>89}
+------------------------
+-->{:type=>:en_GB, :id=>91}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>91}
+es_ES
+{:type=>:es_ES, :id=>91}
+------------------------
+-->{:type=>:en_GB, :id=>97}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>97}
+es_ES
+{:type=>:es_ES, :id=>97}
+------------------------
+-->{:type=>:en_GB, :id=>94}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>94}
+es_ES
+{:type=>:es_ES, :id=>94}
+------------------------
+-->{:type=>:en_GB, :id=>73}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>73}
+es_ES
+{:type=>:es_ES, :id=>73}
+------------------------
+-->{:type=>:en_GB, :id=>74}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>74}
+es_ES
+{:type=>:es_ES, :id=>74}
+------------------------
+-->{:type=>:en_GB, :id=>75}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>75}
+es_ES
+{:type=>:es_ES, :id=>75}
+------------------------
+-->{:type=>:en_GB, :id=>76}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>76}
+es_ES
+{:type=>:es_ES, :id=>76}
+------------------------
+-->{:type=>:en_GB, :id=>78}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>78}
+es_ES
+{:type=>:es_ES, :id=>78}
+------------------------
+-->{:type=>:en_GB, :id=>84}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>84}
+es_ES
+{:type=>:es_ES, :id=>84}
+------------------------
+-->{:type=>:en_GB, :id=>85}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>85}
+es_ES
+{:type=>:es_ES, :id=>85}
+------------------------
+-->{:type=>:en_GB, :id=>93}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>93}
+es_ES
+{:type=>:es_ES, :id=>93}
+------------------------
+-->{:type=>:en_GB, :id=>95}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>95}
+es_ES
+{:type=>:es_ES, :id=>95}
+------------------------
+-->{:type=>:en_GB, :id=>65}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>65}
+es_ES
+{:type=>:es_ES, :id=>65}
+------------------------
+-->{:type=>:en_GB, :id=>71}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>71}
+es_ES
+{:type=>:es_ES, :id=>71}
+------------------------
+-->{:type=>:en_GB, :id=>72}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>72}
+es_ES
+{:type=>:es_ES, :id=>72}
+------------------------
+-->{:type=>:en_GB, :id=>77}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>77}
+es_ES
+{:type=>:es_ES, :id=>77}
+------------------------
+-->{:type=>:en_GB, :id=>79}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>79}
+es_ES
+{:type=>:es_ES, :id=>79}
+------------------------
+-->{:type=>:en_GB, :id=>82}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>82}
+es_ES
+{:type=>:es_ES, :id=>82}
+------------------------
+-->{:type=>:en_GB, :id=>86}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>86}
+es_ES
+{:type=>:es_ES, :id=>86}
+------------------------
+-->{:type=>:en_GB, :id=>87}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>87}
+es_ES
+{:type=>:es_ES, :id=>87}
+------------------------
+-->{:type=>:en_GB, :id=>66}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>66}
+es_ES
+{:type=>:es_ES, :id=>66}
+------------------------
+-->{:type=>:en_GB, :id=>70}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>70}
+es_ES
+{:type=>:es_ES, :id=>70}
+------------------------
+-->{:type=>:en_GB, :id=>83}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>83}
+es_ES
+{:type=>:es_ES, :id=>83}
+------------------------
+-->{:type=>:en_GB, :id=>92}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>92}
+es_ES
+{:type=>:es_ES, :id=>92}
+------------------------
+-->{:type=>:en_GB, :id=>96}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>96}
+es_ES
+{:type=>:es_ES, :id=>96}
+------------------------
+-->{:type=>:en_GB, :id=>67}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>67}
+es_ES
+{:type=>:es_ES, :id=>67}
+------------------------
+-->{:type=>:en_GB, :id=>88}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>88}
+es_ES
+{:type=>:es_ES, :id=>88}
+------------------------
+-->{:type=>:en_GB, :id=>98}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>98}
+es_ES
+{:type=>:es_ES, :id=>98}
+------------------------
+-->{:type=>:en_GB, :id=>69}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>69}
+es_ES
+{:type=>:es_ES, :id=>69}
+------------------------
+-->{:type=>:en_GB, :id=>68}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>68}
+es_ES
+{:type=>:es_ES, :id=>68}
+------------------------
+-->{:type=>:en_GB, :id=>80}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>80}
+es_ES
+{:type=>:es_ES, :id=>80}
+------------------------
+-->{:type=>:en_GB, :id=>62}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>62}
+es_ES
+{:type=>:es_ES, :id=>62}
+------------------------
+-->{:type=>:en_GB, :id=>63}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>63}
+es_ES
+{:type=>:es_ES, :id=>63}
+------------------------
+-->{:type=>:en_GB, :id=>90}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>90}
+es_ES
+{:type=>:es_ES, :id=>90}
+------------------------
+-->{:type=>:en_GB, :id=>64}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>64}
+es_ES
+{:type=>:es_ES, :id=>64}
+------------------------
+-->{:type=>:en_GB, :id=>99}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>99}
+es_ES
+{:type=>:es_ES, :id=>99}
+------------------------
+-->{:type=>:en_GB, :id=>81}
+-->
+LOCALE: en_GB
+OK
+adding new tasks
+fr_FR
+{:type=>:fr_FR, :id=>81}
+es_ES
+{:type=>:es_ES, :id=>81}
+------------------------
+-->{:type=>:media, :id=>48}
+-->{:en_GB=>{"name"=>"48-en_GB"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:es_ES, :id=>7}
+-->{:en_GB=>{"name"=>"7-en_GB"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>8}
+-->{:en_GB=>{"name"=>"8-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>8}
+-->{:en_GB=>{"name"=>"8-en_GB"}, :fr_FR=>{"name"=>"8-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>8}
+-->{:en_GB=>{"name"=>"8-en_GB"}, :fr_FR=>{"name"=>"8-fr_FR"}, :es_ES=>{"name"=>"8-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>9}
+-->{:en_GB=>{"name"=>"9-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>9}
+-->{:en_GB=>{"name"=>"9-en_GB"}, :fr_FR=>{"name"=>"9-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>9}
+-->{:en_GB=>{"name"=>"9-en_GB"}, :fr_FR=>{"name"=>"9-fr_FR"}, :es_ES=>{"name"=>"9-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>6}
+-->{:en_GB=>{"name"=>"6-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>6}
+-->{:en_GB=>{"name"=>"6-en_GB"}, :fr_FR=>{"name"=>"6-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>6}
+-->{:en_GB=>{"name"=>"6-en_GB"}, :fr_FR=>{"name"=>"6-fr_FR"}, :es_ES=>{"name"=>"6-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>10}
+-->{:en_GB=>{"name"=>"10-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>10}
+-->{:en_GB=>{"name"=>"10-en_GB"}, :fr_FR=>{"name"=>"10-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>10}
+-->{:en_GB=>{"name"=>"10-en_GB"}, :fr_FR=>{"name"=>"10-fr_FR"}, :es_ES=>{"name"=>"10-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>11}
+-->{:en_GB=>{"name"=>"11-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>11}
+-->{:en_GB=>{"name"=>"11-en_GB"}, :fr_FR=>{"name"=>"11-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>11}
+-->{:en_GB=>{"name"=>"11-en_GB"}, :fr_FR=>{"name"=>"11-fr_FR"}, :es_ES=>{"name"=>"11-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>12}
+-->{:en_GB=>{"name"=>"12-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>12}
+-->{:en_GB=>{"name"=>"12-en_GB"}, :fr_FR=>{"name"=>"12-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>12}
+-->{:en_GB=>{"name"=>"12-en_GB"}, :fr_FR=>{"name"=>"12-fr_FR"}, :es_ES=>{"name"=>"12-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>5}
+-->{:en_GB=>{"name"=>"5-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>5}
+-->{:en_GB=>{"name"=>"5-en_GB"}, :fr_FR=>{"name"=>"5-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>5}
+-->{:en_GB=>{"name"=>"5-en_GB"}, :fr_FR=>{"name"=>"5-fr_FR"}, :es_ES=>{"name"=>"5-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>14}
+-->{:en_GB=>{"name"=>"14-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>14}
+-->{:en_GB=>{"name"=>"14-en_GB"}, :fr_FR=>{"name"=>"14-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>14}
+-->{:en_GB=>{"name"=>"14-en_GB"}, :fr_FR=>{"name"=>"14-fr_FR"}, :es_ES=>{"name"=>"14-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>15}
+-->{:en_GB=>{"name"=>"15-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>15}
+-->{:en_GB=>{"name"=>"15-en_GB"}, :fr_FR=>{"name"=>"15-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>15}
+-->{:en_GB=>{"name"=>"15-en_GB"}, :fr_FR=>{"name"=>"15-fr_FR"}, :es_ES=>{"name"=>"15-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>16}
+-->{:en_GB=>{"name"=>"16-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>16}
+-->{:en_GB=>{"name"=>"16-en_GB"}, :fr_FR=>{"name"=>"16-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>16}
+-->{:en_GB=>{"name"=>"16-en_GB"}, :fr_FR=>{"name"=>"16-fr_FR"}, :es_ES=>{"name"=>"16-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>17}
+-->{:en_GB=>{"name"=>"17-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>17}
+-->{:en_GB=>{"name"=>"17-en_GB"}, :fr_FR=>{"name"=>"17-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>17}
+-->{:en_GB=>{"name"=>"17-en_GB"}, :fr_FR=>{"name"=>"17-fr_FR"}, :es_ES=>{"name"=>"17-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>18}
+-->{:en_GB=>{"name"=>"18-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>18}
+-->{:en_GB=>{"name"=>"18-en_GB"}, :fr_FR=>{"name"=>"18-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>18}
+-->{:en_GB=>{"name"=>"18-en_GB"}, :fr_FR=>{"name"=>"18-fr_FR"}, :es_ES=>{"name"=>"18-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>19}
+-->{:en_GB=>{"name"=>"19-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>19}
+-->{:en_GB=>{"name"=>"19-en_GB"}, :fr_FR=>{"name"=>"19-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>19}
+-->{:en_GB=>{"name"=>"19-en_GB"}, :fr_FR=>{"name"=>"19-fr_FR"}, :es_ES=>{"name"=>"19-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>4}
+-->{:en_GB=>{"name"=>"4-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>4}
+-->{:en_GB=>{"name"=>"4-en_GB"}, :fr_FR=>{"name"=>"4-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>4}
+-->{:en_GB=>{"name"=>"4-en_GB"}, :fr_FR=>{"name"=>"4-fr_FR"}, :es_ES=>{"name"=>"4-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>13}
+-->{:en_GB=>{"name"=>"13-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>13}
+-->{:en_GB=>{"name"=>"13-en_GB"}, :fr_FR=>{"name"=>"13-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>13}
+-->{:en_GB=>{"name"=>"13-en_GB"}, :fr_FR=>{"name"=>"13-fr_FR"}, :es_ES=>{"name"=>"13-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>20}
+-->{:en_GB=>{"name"=>"20-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>20}
+-->{:en_GB=>{"name"=>"20-en_GB"}, :fr_FR=>{"name"=>"20-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>20}
+-->{:en_GB=>{"name"=>"20-en_GB"}, :fr_FR=>{"name"=>"20-fr_FR"}, :es_ES=>{"name"=>"20-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>21}
+-->{:en_GB=>{"name"=>"21-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>21}
+-->{:en_GB=>{"name"=>"21-en_GB"}, :fr_FR=>{"name"=>"21-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>21}
+-->{:en_GB=>{"name"=>"21-en_GB"}, :fr_FR=>{"name"=>"21-fr_FR"}, :es_ES=>{"name"=>"21-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>22}
+-->{:en_GB=>{"name"=>"22-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>22}
+-->{:en_GB=>{"name"=>"22-en_GB"}, :fr_FR=>{"name"=>"22-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>22}
+-->{:en_GB=>{"name"=>"22-en_GB"}, :fr_FR=>{"name"=>"22-fr_FR"}, :es_ES=>{"name"=>"22-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>23}
+-->{:en_GB=>{"name"=>"23-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>23}
+-->{:en_GB=>{"name"=>"23-en_GB"}, :fr_FR=>{"name"=>"23-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>23}
+-->{:en_GB=>{"name"=>"23-en_GB"}, :fr_FR=>{"name"=>"23-fr_FR"}, :es_ES=>{"name"=>"23-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>24}
+-->{:en_GB=>{"name"=>"24-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>24}
+-->{:en_GB=>{"name"=>"24-en_GB"}, :fr_FR=>{"name"=>"24-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>24}
+-->{:en_GB=>{"name"=>"24-en_GB"}, :fr_FR=>{"name"=>"24-fr_FR"}, :es_ES=>{"name"=>"24-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>25}
+-->{:en_GB=>{"name"=>"25-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>25}
+-->{:en_GB=>{"name"=>"25-en_GB"}, :fr_FR=>{"name"=>"25-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>25}
+-->{:en_GB=>{"name"=>"25-en_GB"}, :fr_FR=>{"name"=>"25-fr_FR"}, :es_ES=>{"name"=>"25-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>3}
+-->{:en_GB=>{"name"=>"3-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>3}
+-->{:en_GB=>{"name"=>"3-en_GB"}, :fr_FR=>{"name"=>"3-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>3}
+-->{:en_GB=>{"name"=>"3-en_GB"}, :fr_FR=>{"name"=>"3-fr_FR"}, :es_ES=>{"name"=>"3-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>49}
+-->{:en_GB=>{"name"=>"49-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>49}
+-->{:en_GB=>{"name"=>"49-en_GB"}, :fr_FR=>{"name"=>"49-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>49}
+-->{:en_GB=>{"name"=>"49-en_GB"}, :fr_FR=>{"name"=>"49-fr_FR"}, :es_ES=>{"name"=>"49-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>50}
+-->{:en_GB=>{"name"=>"50-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>50}
+-->{:en_GB=>{"name"=>"50-en_GB"}, :fr_FR=>{"name"=>"50-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>50}
+-->{:en_GB=>{"name"=>"50-en_GB"}, :fr_FR=>{"name"=>"50-fr_FR"}, :es_ES=>{"name"=>"50-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>54}
+-->{:en_GB=>{"name"=>"54-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>54}
+-->{:en_GB=>{"name"=>"54-en_GB"}, :fr_FR=>{"name"=>"54-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>54}
+-->{:en_GB=>{"name"=>"54-en_GB"}, :fr_FR=>{"name"=>"54-fr_FR"}, :es_ES=>{"name"=>"54-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>39}
+-->{:en_GB=>{"name"=>"39-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>39}
+-->{:en_GB=>{"name"=>"39-en_GB"}, :fr_FR=>{"name"=>"39-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>39}
+-->{:en_GB=>{"name"=>"39-en_GB"}, :fr_FR=>{"name"=>"39-fr_FR"}, :es_ES=>{"name"=>"39-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>40}
+-->{:en_GB=>{"name"=>"40-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>40}
+-->{:en_GB=>{"name"=>"40-en_GB"}, :fr_FR=>{"name"=>"40-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>40}
+-->{:en_GB=>{"name"=>"40-en_GB"}, :fr_FR=>{"name"=>"40-fr_FR"}, :es_ES=>{"name"=>"40-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>48}
+-->{:en_GB=>{"name"=>"48-en_GB"}, :media=>"http://localhost:4567/medias?id=48"}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>48}
+-->{:en_GB=>{"name"=>"48-en_GB"}, :media=>"http://localhost:4567/medias?id=48", :fr_FR=>{"name"=>"48-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>7}
+-->{:en_GB=>{"name"=>"7-en_GB"}, :es_ES=>{"name"=>"7-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>7}
+-->{:en_GB=>{"name"=>"7-en_GB"}, :es_ES=>{"name"=>"7-es_ES"}, :media=>"http://localhost:4567/medias?id=7"}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:media, :id=>0}
+-->{:en_GB=>{"name"=>"0-en_GB"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>57}
+-->{:en_GB=>{"name"=>"57-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>57}
+-->{:en_GB=>{"name"=>"57-en_GB"}, :fr_FR=>{"name"=>"57-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>57}
+-->{:en_GB=>{"name"=>"57-en_GB"}, :fr_FR=>{"name"=>"57-fr_FR"}, :es_ES=>{"name"=>"57-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>58}
+-->{:en_GB=>{"name"=>"58-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>0}
+-->{:en_GB=>{"name"=>"0-en_GB"}, :media=>"http://localhost:4567/medias?id=0"}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>58}
+-->{:en_GB=>{"name"=>"58-en_GB"}, :fr_FR=>{"name"=>"58-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>58}
+-->{:en_GB=>{"name"=>"58-en_GB"}, :fr_FR=>{"name"=>"58-fr_FR"}, :es_ES=>{"name"=>"58-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>44}
+-->{:en_GB=>{"name"=>"44-en_GB"}}
+LOCALE: fr_FR
+OK
+------------------------
+-->{:type=>:es_ES, :id=>44}
+-->{:en_GB=>{"name"=>"44-en_GB"}, :fr_FR=>{"name"=>"44-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:media, :id=>44}
+-->{:en_GB=>{"name"=>"44-en_GB"}, :fr_FR=>{"name"=>"44-fr_FR"}, :es_ES=>{"name"=>"44-es_ES"}}
+MEDIA
+OK
+------------------------
+-->{:type=>:es_ES, :id=>0}
+-->{:en_GB=>{"name"=>"0-en_GB"}, :media=>"http://localhost:4567/medias?id=0", :fr_FR=>{"name"=>"0-fr_FR"}}
+LOCALE: es_ES
+OK
+------------------------
+-->{:type=>:fr_FR, :id=>59}
+-->{:en_GB=>{"name"=>"59-en_GB"}}
+LOCALE: fr_FR
+OK
+items.size = 100
+=>[0, {:en_GB=>{"name"=>"0-en_GB"}, :media=>"http://localhost:4567/medias?id=0", :fr_FR=>{"name"=>"0-fr_FR"}, :es_ES=>{"name"=>"0-es_ES"}}]
+=>[1, {:en_GB=>{"name"=>"1-en_GB"}}]
+Infos has the good size:                                                        FAILURE (line 332): 1 is not equal to 3
+1
+	en_GB: {"name":"1-en_GB"}
+	media: 
